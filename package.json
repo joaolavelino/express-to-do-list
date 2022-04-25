@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/joaolavelino/express-to-do-list/issues"
   },
-  "homepage": "https://github.com/joaolavelino/express-to-do-list#readme"
+  "homepage": "https://github.com/joaolavelino/express-to-do-list#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
