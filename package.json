@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/joaolavelino/express-to-do-list#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
