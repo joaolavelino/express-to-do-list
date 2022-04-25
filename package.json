@@ -1,0 +1,25 @@
+{
+  "name": "express-to-do-list",
+  "version": "1.0.0",
+  "description": "To do list created with express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaolavelino/express-to-do-list.git"
+  },
+  "keywords": [
+    "to-do-list",
+    "express",
+    "fullstack",
+    "backend"
+  ],
+  "author": "Joao Avelino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaolavelino/express-to-do-list/issues"
+  },
+  "homepage": "https://github.com/joaolavelino/express-to-do-list#readme"
+}
