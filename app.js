@@ -10,6 +10,10 @@ app.get("/", (req, res) => {
   );
 });
 
+app.get("/json", (req, res) => {
+  res.json({ title: "Do Something", done: false });
+});
+
 //set the port for the server
 app.listen(3000, () => {
   console.log("The server is now started");
