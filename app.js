@@ -17,6 +17,9 @@ app.set("views", path.join(__dirname, "src/views"));
 app.set("view engine", "ejs");
 //dizendo pro app que as views serao feitas usando EJS
 
+app.use(express.static(path.join(__dirname, "public")));
+//dando o endereço de arquivos estáticos
+
 app.use("/checklists", checklistRouter);
 //esse primeiro argumento coloca um endereço padrao pra todas as rotas dentro desse router... entao as rotas dentro dele nao precisarão ter /checklists no seu caminho.
 app.use("/", rootRouter);
