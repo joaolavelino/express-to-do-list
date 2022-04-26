@@ -24,7 +24,7 @@ Install dependencies
   npm install
 ```
 
-Start the server
+Start the server (on the port 3000)
 
 ```bash
   npm run dev
